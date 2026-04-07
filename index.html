@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RakshaAI - A Support Sathi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <img src="logo.png" alt="RakshaAI Logo" width="50">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Raksha AI</h1>
+                        <p>Ethical, privacy-first cybersecurity guidance (defensive only)</p>
+                    </div>
+                </div>
+                <nav class="nav-pills">
+                    <span class="pill">Defensive-only</span>
+                    <span class="pill">Privacy-first</span>
+                    <span class="pill">India-aware reporting</span>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-area">
+                <h2 class="main-heading">Stay safe online—get clear, legal, step-by-step protection advice.</h2>
+                <p class="description">
+                    Share what happened (message, call, payment request, login alert, etc.). I'll respond in a
+                    structured way: understanding → threat explanation → immediate steps → prevention → official
+                    reporting.
+                </p>
+
+                <div class="input-section">
+                    <label class="input-label" for="incident-input">What happened?</label>
+                    <textarea id="incident-input" class="input-area"
+                        placeholder="Example: I received an email saying my account will be closed unless I verify my password..."></textarea>
+                </div>
+
+                <div class="quick-actions">
+                    <button class="quick-btn" onclick="fillQuickAction('Suspicious bank SMS link')">Suspicious bank SMS
+                        link</button>
+                    <button class="quick-btn" onclick="fillQuickAction('UPI refund scam')">UPI "refund" scam</button>
+                    <button class="quick-btn" onclick="fillQuickAction('WhatsApp OTP request')">WhatsApp OTP
+                        request</button>
+                </div>
+
+                <button class="analyze-btn" onclick="analyzeIncident()">
+                    <span>Get safety guidance</span>
+                    <span>→</span>
+                </button>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    Analyzing your situation...
+                </div>
+
+                <div class="response-area" id="response-area">
+                    <!-- AI Response will be populated here -->
+                </div>
+
+                <div class="safety-boundary">
+                    <h3>Safety boundary</h3>
+                    <p>I can help you protect yourself and recover safely. I won't assist with hacking, fraud, bypassing
+                        security, malware, or illegal actions.</p>
+                </div>
+            </div>
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <h3>What I can help with</h3>
+                    <ul class="feature-list">
+                        <li>Phishing, scam calls, fake emails/SMS, fake job offers</li>
+                        <li>UPI/OTP/payment fraud awareness & safe recovery steps</li>
+                        <li>Account safety (passwords, 2FA, device protection, privacy)</li>
+                        <li>High-level cyber law awareness & official reporting guidance</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>What I won't do</h3>
+                    <ul class="feature-list wont-do-list">
+                        <li>Hacking steps, tools, or bypassing security</li>
+                        <li>Malware creation/use, dark web guidance</li>
+                        <li>Social engineering instructions or fraud</li>
+                    </ul>
+                    <p style="margin-top: 16px; font-size: 14px; color: #94a3b8;">
+                        If you ask for illegal activity, I will refuse and redirect to prevention and lawful options.
+                    </p>
+                </div>
+
+                <div class="sidebar-card india-help">
+                    <h3>India quick help</h3>
+                    <p style="font-size: 14px; color: #cbd5e1; margin-bottom: 16px;">
+                        If you're in India and there's financial loss or an active scam right now:
+                    </p>
+                    <button class="helpline-btn" onclick="showEmergencyHelp()">
+                        🚨 Call 1930 - Cyber Helpline
+                    </button>
+                    <a href="https://cybercrime.gov.in" target="_blank" class="report-btn">
+                        Report on cybercrime.gov.in<br>
+                        <small>Official Government of India cybercrime reporting portal</small>
+                    </a>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
