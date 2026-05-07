@@ -1,13 +1,13 @@
-// 🔥 CYBER HELP AI - ADVANCED JAVASCRIPT
+// ðŸ”¥ CYBER HELP AI - ADVANCED JAVASCRIPT
 // Modern, Animated, Interactive Features
 
-// 🌐 Multi-language Support
+// ðŸŒ Multi-language Support
 const translations = {
     en: {
         title: "Cyber Help AI",
         subtitle: "Ethical, privacy-first cybersecurity guidance (defensive only)",
-        mainHeading: "Stay safe online—get clear, legal, step-by-step protection advice.",
-        description: "Share what happened (message, call, payment request, login alert, etc.). I'll respond in a structured way: understanding → threat explanation → immediate steps → prevention → official reporting.",
+        mainHeading: "Stay safe onlineâ€”get clear, legal, step-by-step protection advice.",
+        description: "Share what happened (message, call, payment request, login alert, etc.). I'll respond in a structured way: understanding â†’ threat explanation â†’ immediate steps â†’ prevention â†’ official reporting.",
         inputLabel: "What happened?",
         inputPlaceholder: "Example: I received an email saying my account will be closed unless I verify my password...",
         analyzeBtn: "Get safety guidance",
@@ -16,30 +16,30 @@ const translations = {
         helpWith: "What I can help with",
         wontDo: "What I won't do",
         indiaHelp: "India quick help",
-        emergencyBtn: "🚨 Call 1930 - Cyber Helpline",
+        emergencyBtn: "ðŸš¨ Call 1930 - Cyber Helpline",
         reportBtn: "Report on cybercrime.gov.in"
     },
     hi: {
-        title: "साइबर हेल्प AI",
-        subtitle: "नैतिक, गोपनीयता-प्राथमिकता साइबर सुरक्षा मार्गदर्शन (केवल रक्षात्मक)",
-        mainHeading: "ऑनलाइन सुरक्षित रहें—स्पष्ट, कानूनी, चरणबद्ध सुरक्षा सलाह प्राप्त करें।",
-        description: "क्या हुआ था साझा करें (संदेश, कॉल, भुगतान अनुरोध, लॉगिन अलर्ट, आदि)। मैं संरचित तरीके से जवाब दूंगा: समझ → खतरे की व्याख्या → तत्काल कदम → रोकथाम → आधिकारिक रिपोर्टिंग।",
-        inputLabel: "क्या हुआ था?",
-        inputPlaceholder: "उदाहरण: मुझे एक ईमेल मिला जिसमें कहा गया कि मेरा खाता बंद हो जाएगा जब तक मैं अपना पासवर्ड सत्यापित नहीं करूंगा...",
-        analyzeBtn: "सुरक्षा मार्गदर्शन प्राप्त करें",
-        safetyBoundaryTitle: "सुरक्षा सीमा",
-        safetyBoundaryText: "मैं आपको सुरक्षित रहने और सुरक्षित रूप से ठीक होने में मदद कर सकता हूं। मैं हैकिंग, धोखाधड़ी, सुरक्षा को बायपास करने, मैलवेयर या अवैध कार्यों में सहायता नहीं करूंगा।",
-        helpWith: "मैं किसमें मदद कर सकता हूं",
-        wontDo: "मैं क्या नहीं करूंगा",
-        indiaHelp: "भारत त्वरित सहायता",
-        emergencyBtn: "🚨 1930 पर कॉल करें - साइबर हेल्पलाइन",
-        reportBtn: "cybercrime.gov.in पर रिपोर्ट करें"
+        title: "à¤¸à¤¾à¤‡à¤¬à¤° à¤¹à¥‡à¤²à¥à¤ª AI",
+        subtitle: "à¤¨à¥ˆà¤¤à¤¿à¤•, à¤—à¥‹à¤ªà¤¨à¥€à¤¯à¤¤à¤¾-à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¤¤à¤¾ à¤¸à¤¾à¤‡à¤¬à¤° à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤®à¤¾à¤°à¥à¤—à¤¦à¤°à¥à¤¶à¤¨ (à¤•à¥‡à¤µà¤² à¤°à¤•à¥à¤·à¤¾à¤¤à¥à¤®à¤•)",
+        mainHeading: "à¤‘à¤¨à¤²à¤¾à¤‡à¤¨ à¤¸à¥à¤°à¤•à¥à¤·à¤¿à¤¤ à¤°à¤¹à¥‡à¤‚â€”à¤¸à¥à¤ªà¤·à¥à¤Ÿ, à¤•à¤¾à¤¨à¥‚à¤¨à¥€, à¤šà¤°à¤£à¤¬à¤¦à¥à¤§ à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤¸à¤²à¤¾à¤¹ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤•à¤°à¥‡à¤‚à¥¤",
+        description: "à¤•à¥à¤¯à¤¾ à¤¹à¥à¤† à¤¥à¤¾ à¤¸à¤¾à¤à¤¾ à¤•à¤°à¥‡à¤‚ (à¤¸à¤‚à¤¦à¥‡à¤¶, à¤•à¥‰à¤², à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤…à¤¨à¥à¤°à¥‹à¤§, à¤²à¥‰à¤—à¤¿à¤¨ à¤…à¤²à¤°à¥à¤Ÿ, à¤†à¤¦à¤¿)à¥¤ à¤®à¥ˆà¤‚ à¤¸à¤‚à¤°à¤šà¤¿à¤¤ à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ à¤œà¤µà¤¾à¤¬ à¤¦à¥‚à¤‚à¤—à¤¾: à¤¸à¤®à¤ â†’ à¤–à¤¤à¤°à¥‡ à¤•à¥€ à¤µà¥à¤¯à¤¾à¤–à¥à¤¯à¤¾ â†’ à¤¤à¤¤à¥à¤•à¤¾à¤² à¤•à¤¦à¤® â†’ à¤°à¥‹à¤•à¤¥à¤¾à¤® â†’ à¤†à¤§à¤¿à¤•à¤¾à¤°à¤¿à¤• à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿà¤¿à¤‚à¤—à¥¤",
+        inputLabel: "à¤•à¥à¤¯à¤¾ à¤¹à¥à¤† à¤¥à¤¾?",
+        inputPlaceholder: "à¤‰à¤¦à¤¾à¤¹à¤°à¤£: à¤®à¥à¤à¥‡ à¤à¤• à¤ˆà¤®à¥‡à¤² à¤®à¤¿à¤²à¤¾ à¤œà¤¿à¤¸à¤®à¥‡à¤‚ à¤•à¤¹à¤¾ à¤—à¤¯à¤¾ à¤•à¤¿ à¤®à¥‡à¤°à¤¾ à¤–à¤¾à¤¤à¤¾ à¤¬à¤‚à¤¦ à¤¹à¥‹ à¤œà¤¾à¤à¤—à¤¾ à¤œà¤¬ à¤¤à¤• à¤®à¥ˆà¤‚ à¤…à¤ªà¤¨à¤¾ à¤ªà¤¾à¤¸à¤µà¤°à¥à¤¡ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤ à¤¨à¤¹à¥€à¤‚ à¤•à¤°à¥‚à¤‚à¤—à¤¾...",
+        analyzeBtn: "à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤®à¤¾à¤°à¥à¤—à¤¦à¤°à¥à¤¶à¤¨ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤•à¤°à¥‡à¤‚",
+        safetyBoundaryTitle: "à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤¸à¥€à¤®à¤¾",
+        safetyBoundaryText: "à¤®à¥ˆà¤‚ à¤†à¤ªà¤•à¥‹ à¤¸à¥à¤°à¤•à¥à¤·à¤¿à¤¤ à¤°à¤¹à¤¨à¥‡ à¤”à¤° à¤¸à¥à¤°à¤•à¥à¤·à¤¿à¤¤ à¤°à¥‚à¤ª à¤¸à¥‡ à¤ à¥€à¤• à¤¹à¥‹à¤¨à¥‡ à¤®à¥‡à¤‚ à¤®à¤¦à¤¦ à¤•à¤° à¤¸à¤•à¤¤à¤¾ à¤¹à¥‚à¤‚à¥¤ à¤®à¥ˆà¤‚ à¤¹à¥ˆà¤•à¤¿à¤‚à¤—, à¤§à¥‹à¤–à¤¾à¤§à¤¡à¤¼à¥€, à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤•à¥‹ à¤¬à¤¾à¤¯à¤ªà¤¾à¤¸ à¤•à¤°à¤¨à¥‡, à¤®à¥ˆà¤²à¤µà¥‡à¤¯à¤° à¤¯à¤¾ à¤…à¤µà¥ˆà¤§ à¤•à¤¾à¤°à¥à¤¯à¥‹à¤‚ à¤®à¥‡à¤‚ à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾ à¤¨à¤¹à¥€à¤‚ à¤•à¤°à¥‚à¤‚à¤—à¤¾à¥¤",
+        helpWith: "à¤®à¥ˆà¤‚ à¤•à¤¿à¤¸à¤®à¥‡à¤‚ à¤®à¤¦à¤¦ à¤•à¤° à¤¸à¤•à¤¤à¤¾ à¤¹à¥‚à¤‚",
+        wontDo: "à¤®à¥ˆà¤‚ à¤•à¥à¤¯à¤¾ à¤¨à¤¹à¥€à¤‚ à¤•à¤°à¥‚à¤‚à¤—à¤¾",
+        indiaHelp: "à¤­à¤¾à¤°à¤¤ à¤¤à¥à¤µà¤°à¤¿à¤¤ à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾",
+        emergencyBtn: "ðŸš¨ 1930 à¤ªà¤° à¤•à¥‰à¤² à¤•à¤°à¥‡à¤‚ - à¤¸à¤¾à¤‡à¤¬à¤° à¤¹à¥‡à¤²à¥à¤ªà¤²à¤¾à¤‡à¤¨",
+        reportBtn: "cybercrime.gov.in à¤ªà¤° à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤•à¤°à¥‡à¤‚"
     },
     hinglish: {
         title: "Cyber Help AI",
         subtitle: "Ethical, privacy-first cybersecurity guidance (defensive only)",
-        mainHeading: "Online safe rahiye—clear, legal, step-by-step protection advice paiye.",
-        description: "Jo hua hai share kariye (message, call, payment request, login alert, etc.). Main structured way mein jawab dunga: samajh → khatre ki vyakhya → turant kadam → rokthaam → official reporting.",
+        mainHeading: "Online safe rahiyeâ€”clear, legal, step-by-step protection advice paiye.",
+        description: "Jo hua hai share kariye (message, call, payment request, login alert, etc.). Main structured way mein jawab dunga: samajh â†’ khatre ki vyakhya â†’ turant kadam â†’ rokthaam â†’ official reporting.",
         inputLabel: "Kya hua tha?",
         inputPlaceholder: "Example: Mujhe ek email aaya jismein kaha gaya ki mera account band ho jayega jab tak main apna password verify nahi karunga...",
         analyzeBtn: "Safety guidance paiye",
@@ -48,41 +48,41 @@ const translations = {
         helpWith: "Main kisme help kar sakta hun",
         wontDo: "Main kya nahi karunga",
         indiaHelp: "India quick help",
-        emergencyBtn: "🚨 1930 par call kariye - Cyber Helpline",
+        emergencyBtn: "ðŸš¨ 1930 par call kariye - Cyber Helpline",
         reportBtn: "cybercrime.gov.in par report kariye"
     }
 };
 
-// 🎯 Cyber Safety Tips for Auto-rotation
+// ðŸŽ¯ Cyber Safety Tips for Auto-rotation
 const safetyTips = [
     {
-        en: "💡 Never share OTP with anyone - Banks never ask for OTP over phone",
-        hi: "💡 किसी के साथ OTP साझा न करें - बैंक फोन पर OTP नहीं मांगते",
-        hinglish: "💡 Kisi ke saath OTP share na kariye - Banks phone par OTP nahi mangte"
+        en: "ðŸ’¡ Never share OTP with anyone - Banks never ask for OTP over phone",
+        hi: "ðŸ’¡ à¤•à¤¿à¤¸à¥€ à¤•à¥‡ à¤¸à¤¾à¤¥ OTP à¤¸à¤¾à¤à¤¾ à¤¨ à¤•à¤°à¥‡à¤‚ - à¤¬à¥ˆà¤‚à¤• à¤«à¥‹à¤¨ à¤ªà¤° OTP à¤¨à¤¹à¥€à¤‚ à¤®à¤¾à¤‚à¤—à¤¤à¥‡",
+        hinglish: "ðŸ’¡ Kisi ke saath OTP share na kariye - Banks phone par OTP nahi mangte"
     },
     {
-        en: "🔐 Use strong, unique passwords for each account",
-        hi: "🔐 हर खाते के लिए मजबूत, अनोखे पासवर्ड का उपयोग करें",
-        hinglish: "🔐 Har account ke liye strong, unique passwords use kariye"
+        en: "ðŸ” Use strong, unique passwords for each account",
+        hi: "ðŸ” à¤¹à¤° à¤–à¤¾à¤¤à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤®à¤œà¤¬à¥‚à¤¤, à¤…à¤¨à¥‹à¤–à¥‡ à¤ªà¤¾à¤¸à¤µà¤°à¥à¤¡ à¤•à¤¾ à¤‰à¤ªà¤¯à¥‹à¤— à¤•à¤°à¥‡à¤‚",
+        hinglish: "ðŸ” Har account ke liye strong, unique passwords use kariye"
     },
     {
-        en: "🚫 Don't click suspicious links in SMS or emails",
-        hi: "🚫 SMS या ईमेल में संदिग्ध लिंक पर क्लिक न करें",
-        hinglish: "🚫 SMS ya email mein suspicious links par click na kariye"
+        en: "ðŸš« Don't click suspicious links in SMS or emails",
+        hi: "ðŸš« SMS à¤¯à¤¾ à¤ˆà¤®à¥‡à¤² à¤®à¥‡à¤‚ à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤²à¤¿à¤‚à¤• à¤ªà¤° à¤•à¥à¤²à¤¿à¤• à¤¨ à¤•à¤°à¥‡à¤‚",
+        hinglish: "ðŸš« SMS ya email mein suspicious links par click na kariye"
     },
     {
-        en: "✅ Always verify requests by calling official numbers",
-        hi: "✅ हमेशा आधिकारिक नंबरों पर कॉल करके अनुरोधों को सत्यापित करें",
-        hinglish: "✅ Hamesha official numbers par call karke requests verify kariye"
+        en: "âœ… Always verify requests by calling official numbers",
+        hi: "âœ… à¤¹à¤®à¥‡à¤¶à¤¾ à¤†à¤§à¤¿à¤•à¤¾à¤°à¤¿à¤• à¤¨à¤‚à¤¬à¤°à¥‹à¤‚ à¤ªà¤° à¤•à¥‰à¤² à¤•à¤°à¤•à¥‡ à¤…à¤¨à¥à¤°à¥‹à¤§à¥‹à¤‚ à¤•à¥‹ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤ à¤•à¤°à¥‡à¤‚",
+        hinglish: "âœ… Hamesha official numbers par call karke requests verify kariye"
     },
     {
-        en: "🏦 Banks never ask for card details or PIN over phone",
-        hi: "🏦 बैंक फोन पर कार्ड विवरण या PIN नहीं मांगते",
-        hinglish: "🏦 Banks phone par card details ya PIN nahi mangte"
+        en: "ðŸ¦ Banks never ask for card details or PIN over phone",
+        hi: "ðŸ¦ à¤¬à¥ˆà¤‚à¤• à¤«à¥‹à¤¨ à¤ªà¤° à¤•à¤¾à¤°à¥à¤¡ à¤µà¤¿à¤µà¤°à¤£ à¤¯à¤¾ PIN à¤¨à¤¹à¥€à¤‚ à¤®à¤¾à¤‚à¤—à¤¤à¥‡",
+        hinglish: "ðŸ¦ Banks phone par card details ya PIN nahi mangte"
     }
 ];
 
-// 🎨 Main Application Class
+// ðŸŽ¨ Main Application Class
 class CyberHelpAI {
     constructor() {
         this.currentLanguage = 'en';
@@ -98,7 +98,7 @@ class CyberHelpAI {
         this.init();
     }
 
-    // 🚀 Initialize Application
+    // ðŸš€ Initialize Application
     init() {
         this.setupEventListeners();
         this.startPageAnimations();
@@ -114,10 +114,10 @@ class CyberHelpAI {
         this.restoreDraftIfAny();
         this.showPrivacyNoticeOnce();
 
-        console.log('🔥 Cyber Help AI - Advanced Features Loaded!');
+        console.log('ðŸ”¥ Cyber Help AI - Advanced Features Loaded!');
     }
 
-    // 🎭 Page Load Animations
+    // ðŸŽ­ Page Load Animations
     startPageAnimations() {
         // Fade in animation for main elements
         const animateElements = [
@@ -155,7 +155,7 @@ class CyberHelpAI {
         }
     }
 
-    // 📜 Scroll Reveal Animation
+    // ðŸ“œ Scroll Reveal Animation
     setupScrollReveal() {
         const observerOptions = {
             threshold: 0.1,
@@ -176,7 +176,7 @@ class CyberHelpAI {
         });
     }
 
-    // 🔄 Auto-rotating Safety Tips
+    // ðŸ”„ Auto-rotating Safety Tips
     startTipRotation() {
         const tipContainer = this.createTipContainer();
 
@@ -192,7 +192,7 @@ class CyberHelpAI {
         const container = document.createElement('div');
         container.className = 'safety-tip-container';
         container.innerHTML = `
-            <div class="tip-header">💡 Safety Tip</div>
+            <div class="tip-header">ðŸ’¡ Safety Tip</div>
             <div class="tip-content" id="rotating-tip"></div>
         `;
 
@@ -222,13 +222,13 @@ class CyberHelpAI {
         this.currentTipIndex = (this.currentTipIndex + 1) % safetyTips.length;
     }
 
-    // 🌍 Language Switcher
+    // ðŸŒ Language Switcher
     setupLanguageSwitcher() {
         const switcher = document.createElement('div');
         switcher.className = 'language-switcher';
         switcher.innerHTML = `
             <button class="lang-btn ${this.currentLanguage === 'en' ? 'active' : ''}" data-lang="en">EN</button>
-            <button class="lang-btn ${this.currentLanguage === 'hi' ? 'active' : ''}" data-lang="hi">हिंदी</button>
+            <button class="lang-btn ${this.currentLanguage === 'hi' ? 'active' : ''}" data-lang="hi">à¤¹à¤¿à¤‚à¤¦à¥€</button>
             <button class="lang-btn ${this.currentLanguage === 'hinglish' ? 'active' : ''}" data-lang="hinglish">Hinglish</button>
         `;
 
@@ -279,7 +279,7 @@ class CyberHelpAI {
         });
     }
 
-    // 📊 Scroll Progress Indicator
+    // ðŸ“Š Scroll Progress Indicator
     setupScrollProgress() {
         const progressBar = document.createElement('div');
         progressBar.className = 'scroll-progress';
@@ -291,11 +291,11 @@ class CyberHelpAI {
         });
     }
 
-    // 🌙 Theme Toggle
+    // ðŸŒ™ Theme Toggle
     setupThemeToggle() {
         const themeToggle = document.createElement('button');
         themeToggle.className = 'theme-toggle';
-        themeToggle.innerHTML = this.theme === 'dark' ? '🌙' : '☀️';
+        themeToggle.innerHTML = this.theme === 'dark' ? 'ðŸŒ™' : 'â˜€ï¸';
         themeToggle.title = 'Toggle Dark/Light Mode';
 
         document.querySelector('.nav-pills').appendChild(themeToggle);
@@ -310,7 +310,7 @@ class CyberHelpAI {
         document.body.classList.toggle('light-theme', this.theme === 'light');
 
         const themeToggle = document.querySelector('.theme-toggle');
-        themeToggle.innerHTML = this.theme === 'dark' ? '🌙' : '☀️';
+        themeToggle.innerHTML = this.theme === 'dark' ? 'ðŸŒ™' : 'â˜€ï¸';
 
         // Save preference
         localStorage.setItem('theme', this.theme);
@@ -322,7 +322,7 @@ class CyberHelpAI {
         }
     }
 
-    // ✅ Enhanced Form Validation
+    // âœ… Enhanced Form Validation
     setupFormValidation() {
         const input = document.getElementById('incident-input');
         const analyzeBtn = document.querySelector('.analyze-btn');
@@ -365,7 +365,7 @@ class CyberHelpAI {
         if (urls) {
             urls.forEach(url => {
                 if (this.isSuspiciousURL(url)) {
-                    this.showValidationMessage('⚠️ Suspicious URL detected - DO NOT click it!', 'danger');
+                    this.showValidationMessage('âš ï¸ Suspicious URL detected - DO NOT click it!', 'danger');
                 }
             });
         }
@@ -397,27 +397,27 @@ class CyberHelpAI {
         setTimeout(() => msgElement.classList.add('show'), 10);
     }
 
-    // 🚨 Enhanced Emergency Modal
+    // ðŸš¨ Enhanced Emergency Modal
     setupEmergencyModal() {
         const modal = document.createElement('div');
         modal.className = 'emergency-modal';
         modal.innerHTML = `
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3>🚨 EMERGENCY CYBER HELP</h3>
+                    <h3>ðŸš¨ EMERGENCY CYBER HELP</h3>
                     <button class="modal-close">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="emergency-info">
                         <div class="helpline-info">
-                            <h4>🇮🇳 India Cyber Helpline</h4>
+                            <h4>ðŸ‡®ðŸ‡³ India Cyber Helpline</h4>
                             <div class="phone-number">1930</div>
                             <p>Available 24x7 for cyber crime reporting</p>
                         </div>
                         
                         <div class="quick-actions-modal">
-                            <a href="tel:1930" class="emergency-btn call-btn">📞 Call 1930 Now</a>
-                            <a href="https://cybercrime.gov.in" target="_blank" class="emergency-btn report-btn">🌐 Report Online</a>
+                            <a href="tel:1930" class="emergency-btn call-btn">ðŸ“ž Call 1930 Now</a>
+                            <a href="https://cybercrime.gov.in" target="_blank" class="emergency-btn report-btn">ðŸŒ Report Online</a>
                         </div>
                         
                         <div class="emergency-steps">
@@ -472,7 +472,7 @@ class CyberHelpAI {
         document.body.style.overflow = '';
     }
 
-    // 🎯 Enhanced Scam Analysis
+    // ðŸŽ¯ Enhanced Scam Analysis
     async analyzeIncident() {
         const input = document.getElementById('incident-input');
         const value = input.value.trim();
@@ -497,25 +497,25 @@ class CyberHelpAI {
         loading.innerHTML = `
         <div class="analysis-steps">
             <div class="step active" data-step="1">
-                <div class="step-icon">🔍</div>
+                <div class="step-icon">ðŸ”</div>
                 <div class="step-text">Analyzing content...</div>
             </div>
             <div class="step" data-step="2">
-                <div class="step-icon">⚠️</div>
+                <div class="step-icon">âš ï¸</div>
                 <div class="step-text">Identifying threats...</div>
             </div>
             <div class="step" data-step="3">
-                <div class="step-icon">🛡️</div>
+                <div class="step-icon">ðŸ›¡ï¸</div>
                 <div class="step-text">Generating safety advice...</div>
             </div>
             <div class="step" data-step="4">
-                <div class="step-icon">📋</div>
+                <div class="step-icon">ðŸ“‹</div>
                 <div class="step-text">Preparing report...</div>
             </div>
         </div>
     `;
 
-        // ✅ animation logic
+        // âœ… animation logic
         let currentStep = 1;
 
         const stepInterval = setInterval(() => {
@@ -532,7 +532,7 @@ class CyberHelpAI {
                 nextStep.classList.add('active');
             }
 
-            // ✅ finish → call API
+            // âœ… finish â†’ call API
             if (currentStep > 4) {
                 clearInterval(stepInterval);
 
@@ -544,22 +544,22 @@ class CyberHelpAI {
         }, 800);
     }
 
-async showAnalysisResult(text) {
-    const loading = document.getElementById('loading');
-    const responseArea = document.getElementById('response-area');
+    async showAnalysisResult(text) {
+        const loading = document.getElementById('loading');
+        const responseArea = document.getElementById('response-area');
 
-    try {
-        const response = await fetch("https://rakshaai-backend-srh2.onrender.com/analyze", {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ text })
-        });
+        try {
+            const response = await fetch("https://rakshaai-backend-srh2.onrender.com/analyze", {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text })
+            });
 
             if (!response.ok) throw new Error('API request failed');
 
             let analysis = await response.json();
 
-            // 🔥 IMPORTANT FIX (fallback handling)
+            // ðŸ”¥ IMPORTANT FIX (fallback handling)
             if (analysis.raw) {
                 try {
                     analysis = JSON.parse(analysis.raw);
@@ -576,7 +576,7 @@ async showAnalysisResult(text) {
                 }
             }
 
-            // 🧠 ensure all fields exist (extra safety)
+            // ðŸ§  ensure all fields exist (extra safety)
             analysis = {
                 riskLevel: analysis.riskLevel || "Unknown",
                 score: analysis.score || 0,
@@ -587,16 +587,16 @@ async showAnalysisResult(text) {
                 reportingOptions: analysis.reportingOptions || []
             };
 
-            // ✅ Hide loading
+            // âœ… Hide loading
             loading.classList.remove('show');
 
-            // 🎯 Show result
+            // ðŸŽ¯ Show result
             responseArea.innerHTML = this.generateEnhancedResponse(analysis);
             responseArea.classList.add('show');
 
             this.isAnalyzing = false;
 
-            // 🎬 Animate response
+            // ðŸŽ¬ Animate response
             this.animateResponseSections();
 
         } catch (error) {
@@ -635,7 +635,7 @@ async showAnalysisResult(text) {
                 </div>
                 
                 <div class="detected-threats">
-                    <h4>🎯 Threat Explanation</h4>
+                    <h4>ðŸŽ¯ Threat Explanation</h4>
                     <div class="threat-item">
                         <strong>What is happening</strong>
                         <div class="threat-matches" style="margin-top: 4px; line-height: 1.4;">${analysis.whatIsHappening}</div>
@@ -647,28 +647,28 @@ async showAnalysisResult(text) {
                 </div>
                 
                 <div class="recommendations">
-                    <h4>🛡️ Immediate Steps to Take</h4>
-                    ${(analysis.immediateSteps || []).map(step => `<div class="recommendation">🛑 ${step}</div>`).join('')}
+                    <h4>ðŸ›¡ï¸ Immediate Steps to Take</h4>
+                    ${(analysis.immediateSteps || []).map(step => `<div class="recommendation">ðŸ›‘ ${step}</div>`).join('')}
                 </div>
                 
                 <div class="recommendations">
-                    <h4>💡 Prevention Tips</h4>
-                    ${(analysis.preventionTips || []).map(tip => `<div class="recommendation">🛡️ ${tip}</div>`).join('')}
+                    <h4>ðŸ’¡ Prevention Tips</h4>
+                    ${(analysis.preventionTips || []).map(tip => `<div class="recommendation">ðŸ›¡ï¸ ${tip}</div>`).join('')}
                 </div>
                 
                 <div class="report-section">
-                    <h4>📞 Official Reporting Options</h4>
+                    <h4>ðŸ“ž Official Reporting Options</h4>
                     ${analysis.reportingOptions && analysis.reportingOptions.length > 0 ? `
                         <div class="recommendations" style="margin-bottom: 15px;">
-                            ${analysis.reportingOptions.map(opt => `<div class="recommendation">📋 ${opt}</div>`).join('')}
+                            ${analysis.reportingOptions.map(opt => `<div class="recommendation">ðŸ“‹ ${opt}</div>`).join('')}
                         </div>
                     ` : ''}
                     <div class="report-buttons">
                         <button class="report-btn emergency" onclick="cyberAI.showEmergencyModal()">
-                            🚨 ${responseTexts.emergencyHelp}
+                            ðŸš¨ ${responseTexts.emergencyHelp}
                         </button>
                         <a href="https://cybercrime.gov.in" target="_blank" class="report-btn online">
-                            🌐 ${responseTexts.reportOnline}
+                            ðŸŒ ${responseTexts.reportOnline}
                         </a>
                     </div>
                 </div>
@@ -707,31 +707,31 @@ async showAnalysisResult(text) {
                 }
             },
             hi: {
-                risk: 'जोखिम',
-                score: 'स्कोर',
-                detectedThreats: 'पहचाने गए खतरे',
-                matchedKeywords: 'मिलान किए गए कीवर्ड',
-                redFlags: 'पहचाने गए लाल झंडे',
-                immediateActions: 'तत्काल कार्रवाई',
-                specificRecommendations: 'विशिष्ट सिफारिशें',
-                reportHelp: 'रिपोर्ट करें और सहायता प्राप्त करें',
-                emergencyHelp: 'आपातकालीन सहायता',
-                reportOnline: 'ऑनलाइन रिपोर्ट करें',
+                risk: 'à¤œà¥‹à¤–à¤¿à¤®',
+                score: 'à¤¸à¥à¤•à¥‹à¤°',
+                detectedThreats: 'à¤ªà¤¹à¤šà¤¾à¤¨à¥‡ à¤—à¤ à¤–à¤¤à¤°à¥‡',
+                matchedKeywords: 'à¤®à¤¿à¤²à¤¾à¤¨ à¤•à¤¿à¤ à¤—à¤ à¤•à¥€à¤µà¤°à¥à¤¡',
+                redFlags: 'à¤ªà¤¹à¤šà¤¾à¤¨à¥‡ à¤—à¤ à¤²à¤¾à¤² à¤à¤‚à¤¡à¥‡',
+                immediateActions: 'à¤¤à¤¤à¥à¤•à¤¾à¤² à¤•à¤¾à¤°à¥à¤°à¤µà¤¾à¤ˆ',
+                specificRecommendations: 'à¤µà¤¿à¤¶à¤¿à¤·à¥à¤Ÿ à¤¸à¤¿à¤«à¤¾à¤°à¤¿à¤¶à¥‡à¤‚',
+                reportHelp: 'à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤•à¤°à¥‡à¤‚ à¤”à¤° à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤•à¤°à¥‡à¤‚',
+                emergencyHelp: 'à¤†à¤ªà¤¾à¤¤à¤•à¤¾à¤²à¥€à¤¨ à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾',
+                reportOnline: 'à¤‘à¤¨à¤²à¤¾à¤‡à¤¨ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤•à¤°à¥‡à¤‚',
                 riskLevels: {
-                    low: 'कम',
-                    medium: 'मध्यम',
-                    high: 'उच्च'
+                    low: 'à¤•à¤®',
+                    medium: 'à¤®à¤§à¥à¤¯à¤®',
+                    high: 'à¤‰à¤šà¥à¤š'
                 },
                 severityLevels: {
-                    low: 'कम',
-                    medium: 'मध्यम',
-                    high: 'उच्च'
+                    low: 'à¤•à¤®',
+                    medium: 'à¤®à¤§à¥à¤¯à¤®',
+                    high: 'à¤‰à¤šà¥à¤š'
                 },
                 actions: {
-                    stop: 'सभी संचार बंद करें',
-                    dontShare: 'व्यक्तिगत जानकारी साझा न करें',
-                    callOfficial: 'आधिकारिक नंबरों पर कॉल करें',
-                    document: 'सब कुछ दस्तावेज़ित करें'
+                    stop: 'à¤¸à¤­à¥€ à¤¸à¤‚à¤šà¤¾à¤° à¤¬à¤‚à¤¦ à¤•à¤°à¥‡à¤‚',
+                    dontShare: 'à¤µà¥à¤¯à¤•à¥à¤¤à¤¿à¤—à¤¤ à¤œà¤¾à¤¨à¤•à¤¾à¤°à¥€ à¤¸à¤¾à¤à¤¾ à¤¨ à¤•à¤°à¥‡à¤‚',
+                    callOfficial: 'à¤†à¤§à¤¿à¤•à¤¾à¤°à¤¿à¤• à¤¨à¤‚à¤¬à¤°à¥‹à¤‚ à¤ªà¤° à¤•à¥‰à¤² à¤•à¤°à¥‡à¤‚',
+                    document: 'à¤¸à¤¬ à¤•à¥à¤› à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼à¤¿à¤¤ à¤•à¤°à¥‡à¤‚'
                 }
             },
             hinglish: {
@@ -777,11 +777,11 @@ async showAnalysisResult(text) {
                 'Tech Support Scam': 'Tech Support Scam'
             },
             hi: {
-                'Phishing Attack': 'फिशिंग हमला',
-                'OTP Fraud': 'OTP धोखाधड़ी',
-                'Fake Job Scam': 'नकली नौकरी घोटाला',
-                'UPI/Payment Scam': 'UPI/भुगतान घोटाला',
-                'Tech Support Scam': 'तकनीकी सहायता घोटाला'
+                'Phishing Attack': 'à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¤®à¤²à¤¾',
+                'OTP Fraud': 'OTP à¤§à¥‹à¤–à¤¾à¤§à¤¡à¤¼à¥€',
+                'Fake Job Scam': 'à¤¨à¤•à¤²à¥€ à¤¨à¥Œà¤•à¤°à¥€ à¤˜à¥‹à¤Ÿà¤¾à¤²à¤¾',
+                'UPI/Payment Scam': 'UPI/à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤˜à¥‹à¤Ÿà¤¾à¤²à¤¾',
+                'Tech Support Scam': 'à¤¤à¤•à¤¨à¥€à¤•à¥€ à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾ à¤˜à¥‹à¤Ÿà¤¾à¤²à¤¾'
             },
             hinglish: {
                 'Phishing Attack': 'Phishing Attack',
@@ -805,11 +805,11 @@ async showAnalysisResult(text) {
                 'Unprofessional communication channels': 'Unprofessional communication channels'
             },
             hi: {
-                'Creates false urgency': 'झूठी तात्कालिकता बनाता है',
-                'Suspicious links or attachments': 'संदिग्ध लिंक या अटैचमेंट',
-                'Requests sensitive information': 'संवेदनशील जानकारी मांगता है',
-                'Involves money transactions': 'पैसे के लेन-देन में शामिल',
-                'Unprofessional communication channels': 'गैर-पेशेवर संचार चैनल'
+                'Creates false urgency': 'à¤à¥‚à¤ à¥€ à¤¤à¤¾à¤¤à¥à¤•à¤¾à¤²à¤¿à¤•à¤¤à¤¾ à¤¬à¤¨à¤¾à¤¤à¤¾ à¤¹à¥ˆ',
+                'Suspicious links or attachments': 'à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤²à¤¿à¤‚à¤• à¤¯à¤¾ à¤…à¤Ÿà¥ˆà¤šà¤®à¥‡à¤‚à¤Ÿ',
+                'Requests sensitive information': 'à¤¸à¤‚à¤µà¥‡à¤¦à¤¨à¤¶à¥€à¤² à¤œà¤¾à¤¨à¤•à¤¾à¤°à¥€ à¤®à¤¾à¤‚à¤—à¤¤à¤¾ à¤¹à¥ˆ',
+                'Involves money transactions': 'à¤ªà¥ˆà¤¸à¥‡ à¤•à¥‡ à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤®à¥‡à¤‚ à¤¶à¤¾à¤®à¤¿à¤²',
+                'Unprofessional communication channels': 'à¤—à¥ˆà¤°-à¤ªà¥‡à¤¶à¥‡à¤µà¤° à¤¸à¤‚à¤šà¤¾à¤° à¤šà¥ˆà¤¨à¤²'
             },
             hinglish: {
                 'Creates false urgency': 'False urgency create karta hai',
@@ -826,22 +826,22 @@ async showAnalysisResult(text) {
     getLocalizedRecommendation(recommendation) {
         const recommendations = {
             en: {
-                '🚨 Take immediate action - this appears to be a serious threat': '🚨 Take immediate action - this appears to be a serious threat',
-                '📞 Consider calling Cyber Helpline 1930 if you are in India': '📞 Consider calling Cyber Helpline 1930 if you are in India',
-                '🔐 Never share OTP with anyone - legitimate organizations never ask for it': '🔐 Never share OTP with anyone - legitimate organizations never ask for it',
-                '🏦 Contact your bank immediately using official numbers': '🏦 Contact your bank immediately using official numbers'
+                'ðŸš¨ Take immediate action - this appears to be a serious threat': 'ðŸš¨ Take immediate action - this appears to be a serious threat',
+                'ðŸ“ž Consider calling Cyber Helpline 1930 if you are in India': 'ðŸ“ž Consider calling Cyber Helpline 1930 if you are in India',
+                'ðŸ” Never share OTP with anyone - legitimate organizations never ask for it': 'ðŸ” Never share OTP with anyone - legitimate organizations never ask for it',
+                'ðŸ¦ Contact your bank immediately using official numbers': 'ðŸ¦ Contact your bank immediately using official numbers'
             },
             hi: {
-                '🚨 Take immediate action - this appears to be a serious threat': '🚨 तत्काल कार्रवाई करें - यह एक गंभीर खतरा प्रतीत होता है',
-                '📞 Consider calling Cyber Helpline 1930 if you are in India': '📞 यदि आप भारत में हैं तो साइबर हेल्पलाइन 1930 पर कॉल करने पर विचार करें',
-                '🔐 Never share OTP with anyone - legitimate organizations never ask for it': '🔐 किसी के साथ OTP साझा न करें - वैध संगठन इसके लिए कभी नहीं पूछते',
-                '🏦 Contact your bank immediately using official numbers': '🏦 आधिकारिक नंबरों का उपयोग करके तुरंत अपने बैंक से संपर्क करें'
+                'ðŸš¨ Take immediate action - this appears to be a serious threat': 'ðŸš¨ à¤¤à¤¤à¥à¤•à¤¾à¤² à¤•à¤¾à¤°à¥à¤°à¤µà¤¾à¤ˆ à¤•à¤°à¥‡à¤‚ - à¤¯à¤¹ à¤à¤• à¤—à¤‚à¤­à¥€à¤° à¤–à¤¤à¤°à¤¾ à¤ªà¥à¤°à¤¤à¥€à¤¤ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ',
+                'ðŸ“ž Consider calling Cyber Helpline 1930 if you are in India': 'ðŸ“ž à¤¯à¤¦à¤¿ à¤†à¤ª à¤­à¤¾à¤°à¤¤ à¤®à¥‡à¤‚ à¤¹à¥ˆà¤‚ à¤¤à¥‹ à¤¸à¤¾à¤‡à¤¬à¤° à¤¹à¥‡à¤²à¥à¤ªà¤²à¤¾à¤‡à¤¨ 1930 à¤ªà¤° à¤•à¥‰à¤² à¤•à¤°à¤¨à¥‡ à¤ªà¤° à¤µà¤¿à¤šà¤¾à¤° à¤•à¤°à¥‡à¤‚',
+                'ðŸ” Never share OTP with anyone - legitimate organizations never ask for it': 'ðŸ” à¤•à¤¿à¤¸à¥€ à¤•à¥‡ à¤¸à¤¾à¤¥ OTP à¤¸à¤¾à¤à¤¾ à¤¨ à¤•à¤°à¥‡à¤‚ - à¤µà¥ˆà¤§ à¤¸à¤‚à¤—à¤ à¤¨ à¤‡à¤¸à¤•à¥‡ à¤²à¤¿à¤ à¤•à¤­à¥€ à¤¨à¤¹à¥€à¤‚ à¤ªà¥‚à¤›à¤¤à¥‡',
+                'ðŸ¦ Contact your bank immediately using official numbers': 'ðŸ¦ à¤†à¤§à¤¿à¤•à¤¾à¤°à¤¿à¤• à¤¨à¤‚à¤¬à¤°à¥‹à¤‚ à¤•à¤¾ à¤‰à¤ªà¤¯à¥‹à¤— à¤•à¤°à¤•à¥‡ à¤¤à¥à¤°à¤‚à¤¤ à¤…à¤ªà¤¨à¥‡ à¤¬à¥ˆà¤‚à¤• à¤¸à¥‡ à¤¸à¤‚à¤ªà¤°à¥à¤• à¤•à¤°à¥‡à¤‚'
             },
             hinglish: {
-                '🚨 Take immediate action - this appears to be a serious threat': '🚨 Turant action liye - yeh serious threat lagta hai',
-                '📞 Consider calling Cyber Helpline 1930 if you are in India': '📞 Agar aap India mein hain to Cyber Helpline 1930 par call karne ka socho',
-                '🔐 Never share OTP with anyone - legitimate organizations never ask for it': '🔐 Kisi ke saath OTP share na kariye - legitimate organizations kabhi nahi mangte',
-                '🏦 Contact your bank immediately using official numbers': '🏦 Official numbers use karke turant apne bank se contact kariye'
+                'ðŸš¨ Take immediate action - this appears to be a serious threat': 'ðŸš¨ Turant action liye - yeh serious threat lagta hai',
+                'ðŸ“ž Consider calling Cyber Helpline 1930 if you are in India': 'ðŸ“ž Agar aap India mein hain to Cyber Helpline 1930 par call karne ka socho',
+                'ðŸ” Never share OTP with anyone - legitimate organizations never ask for it': 'ðŸ” Kisi ke saath OTP share na kariye - legitimate organizations kabhi nahi mangte',
+                'ðŸ¦ Contact your bank immediately using official numbers': 'ðŸ¦ Official numbers use karke turant apne bank se contact kariye'
             }
         };
 
@@ -862,7 +862,7 @@ async showAnalysisResult(text) {
         });
     }
 
-    // 🔔 Notification System
+    // ðŸ”” Notification System
     showNotification(message, type = 'info') {
         const notification = document.createElement('div');
         notification.className = `notification ${type}`;
@@ -892,10 +892,10 @@ async showAnalysisResult(text) {
 
     getNotificationIcon(type) {
         const icons = {
-            success: '✅',
-            error: '❌',
-            warning: '⚠️',
-            info: 'ℹ️'
+            success: 'âœ…',
+            error: 'âŒ',
+            warning: 'âš ï¸',
+            info: 'â„¹ï¸'
         };
         return icons[type] || icons.info;
     }
@@ -909,7 +909,7 @@ async showAnalysisResult(text) {
         }, 300);
     }
 
-    // 🎯 Smooth Scrolling
+    // ðŸŽ¯ Smooth Scrolling
     setupSmoothScrolling() {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -925,7 +925,7 @@ async showAnalysisResult(text) {
         });
     }
 
-    // 🎮 Event Listeners Setup
+    // ðŸŽ® Event Listeners Setup
     setupEventListeners() {
         // Enhanced button animations
         document.addEventListener('click', (e) => {
@@ -1009,7 +1009,7 @@ async showAnalysisResult(text) {
         }
     }
 
-    // 📝 Incident History (keyboard-only, no UI changes)
+    // ðŸ“ Incident History (keyboard-only, no UI changes)
     setupIncidentHistory() {
         const input = document.getElementById('incident-input');
         if (!input) return;
@@ -1067,7 +1067,7 @@ async showAnalysisResult(text) {
         });
     }
 
-    // 💾 Draft persistence (local-only)
+    // ðŸ’¾ Draft persistence (local-only)
     saveDraft(value) {
         try {
             localStorage.setItem(this.draftKey, value || '');
@@ -1092,7 +1092,7 @@ async showAnalysisResult(text) {
         }
     }
 
-    // 🛡️ Local privacy notice (one per session)
+    // ðŸ›¡ï¸ Local privacy notice (one per session)
     showPrivacyNoticeOnce() {
         try {
             const key = 'cyberHelpPrivacyNoticeShown';
@@ -1104,7 +1104,7 @@ async showAnalysisResult(text) {
         }
     }
 
-    // 🔒 Sanitize personal details before analysis (local only)
+    // ðŸ”’ Sanitize personal details before analysis (local only)
     sanitizeInputForAnalysis(text) {
         let sanitized = text;
 
@@ -1120,7 +1120,7 @@ async showAnalysisResult(text) {
         return sanitized;
     }
 
-    // 📋 Copy latest analysis to clipboard
+    // ðŸ“‹ Copy latest analysis to clipboard
     async copyLatestAnalysisToClipboard() {
         const responseArea = document.getElementById('response-area');
         if (!responseArea || !responseArea.textContent.trim()) {
@@ -1148,7 +1148,7 @@ async showAnalysisResult(text) {
     }
 }
 
-// 🚀 Initialize Application
+// ðŸš€ Initialize Application
 let cyberAI;
 
 // Wait for DOM to be ready
@@ -1162,7 +1162,7 @@ function initializeApp() {
     cyberAI = new CyberHelpAI();
 }
 
-// 🔧 Global Functions (for HTML onclick handlers)
+// ðŸ”§ Global Functions (for HTML onclick handlers)
 function fillQuickAction(action) {
     document.getElementById('incident-input').value = action;
     cyberAI.validateInput(document.getElementById('incident-input'));
@@ -1176,7 +1176,7 @@ function showEmergencyHelp() {
     cyberAI.showEmergencyModal();
 }
 
-// 🎨 Enhanced CSS Animations (injected via JavaScript)
+// ðŸŽ¨ Enhanced CSS Animations (injected via JavaScript)
 function injectEnhancedStyles() {
     const style = document.createElement('style');
     style.textContent = `

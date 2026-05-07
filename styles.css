@@ -653,3 +653,88 @@ body {
 .pdf-export h4 {
   color: #1e293b !important;
 }
+
+/* Image Upload Styles */
+.textarea-container {
+    position: relative;
+    width: 100%;
+}
+
+.upload-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    color: #cbd5e1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.upload-btn:hover {
+    background: rgba(79, 70, 229, 0.2);
+    color: #818cf8;
+    border-color: rgba(79, 70, 229, 0.4);
+}
+
+.image-preview {
+    margin-top: 12px;
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.image-preview img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    object-fit: cover;
+}
+
+.remove-image-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.remove-image-btn:hover {
+    background: rgba(239, 68, 68, 0.8);
+}
+
+.light-theme .upload-btn {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #475569;
+}
+
+.light-theme .upload-btn:hover {
+    background: rgba(79, 70, 229, 0.1);
+    color: #4f46e5;
+    border-color: rgba(79, 70, 229, 0.3);
+}
+
+.light-theme .image-preview {
+    border-color: rgba(0, 0, 0, 0.2);
+}
